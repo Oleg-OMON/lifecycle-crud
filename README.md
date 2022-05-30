@@ -36,3 +36,4 @@ Backend вы можете либо написать сами, либо взят�
 [GH-Page](https://222alexa.github.io/ra-lifecycle-crud/)
 [Server](https://alexa222-heroku.herokuapp.com/)
 [Backend](https://github.com/222Alexa/backEnd.git)
+[![Build status](https://ci.appveyor.com/api/projects/status/61ee1xtj1spt2cc4/branch/main?svg=true)](https://ci.appveyor.com/project/222Alexa44925/ra-lifecycle-crud/branch/main)
