@@ -1,7 +1,7 @@
 import React from "react";
 
 const Spinner = (data) => {
-  console.log(data, "spinner");
+
   if (data.type === "message") {
     return null;
   }

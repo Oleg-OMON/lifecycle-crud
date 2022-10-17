@@ -12,8 +12,8 @@ const Form = (data) => {
 
   const { childData, onAdd } = data;
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = (event) => {
+    event.preventDefault();
 
     if (!inputRef.current || inputRef.current.value === "") {
       tooltipeRef.current.style["visibility"] = "visible";
@@ -25,10 +25,10 @@ const Form = (data) => {
     inputRef.current.value = "";
   };
 
-  const handleInput = (e) => {
-    e.preventDefault();
+  const handleInput = (event) => {
+    event.preventDefault();
 
-    inputRef.current = e.target;
+    inputRef.current = event.target;
   };
 
   return (
